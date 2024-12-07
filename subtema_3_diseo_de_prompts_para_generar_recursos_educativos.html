@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Subtema 3: Diseño de prompts para generar recursos educativos | Definición, estructura y diseño de prompts en Inteligencia Artificial Generativa. </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Citlali Ivette Lelis García" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-9"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Definición, estructura y diseño de prompts en Inteligencia Artificial Generativa.</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="subtema_1_introduccin_a_los_prompts.html" class="daddy">Subtema 1. Introducción a los prompts</a>
+   <ul class="other-section">
+      <li><a href="concepto_de_prompt_en_ia_generativa.html" class="no-ch">Concepto de prompt en IA Generativa</a></li>
+      <li><a href="ejemplo_bsico_de_prompt_y_su_impacto_en_los_resultados_generados.html" class="no-ch">Ejemplo básico de prompt y su impacto en los resultados generados</a></li>
+      <li><a href="autoevaluacin.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li><a href="subtema_2_estructura_de_un_prompt_efectivo.html" class="daddy">Subtema 2: Estructura de un prompt efectivo</a>
+   <ul class="other-section">
+      <li><a href="elementos_clave_de_un_prompt_contexto_tarea_y_rol.html" class="no-ch">Elementos clave de un prompt (contexto, tarea y rol)</a></li>
+      <li><a href="diseo_adaptativo_considerando_el_pblico_objetivo_y_los_objetivos_de_aprendizaje.html" class="no-ch">Diseño adaptativo: considerando el público objetivo y los objetivos de aprendizaje</a></li>
+      <li><a href="autoevaluacin0.html" class="no-ch">Autoevaluación</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="subtema_3_diseo_de_prompts_para_generar_recursos_educativos.html" class="active daddy">Subtema 3: Diseño de prompts para generar recursos educativos</a>
+   <ul>
+      <li><a href="estrategias_prcticas_para_disear_prompts_alineados_a_objetivos_pedaggicos.html" class="no-ch">Estrategias prácticas para diseñar prompts alineados a objetivos pedagógicos</a></li>
+      <li><a href="disea_contenido_educativo_para_redes_sociales_con_ia_generativa.html" class="no-ch">Diseña contenido educativo para redes sociales con IA Generativa</a></li>
+      <li><a href="evaluacin_final.html" class="no-ch">Evaluación final</a></li>
+   </ul>
+   </li>
+   <li><a href="referencias.html" class="no-ch">Referencias.</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="autoevaluacin0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="estrategias_prcticas_para_disear_prompts_alineados_a_objetivos_pedaggicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Subtema 3: Diseño de prompts para generar recursos educativos</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Presentación.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_147_2" class="block iDevice_content">
+<div class="exe-text"><table border="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 36.8421%;">
+<figure class="exe-figure exe-image position-center" style="width: 320px;"><img src="teacher3.jpg" alt="Foto de Pixabay: https://www.pexels.com/es-es/foto/hombre-en-polo-blanco-y-negro-junto-al-tablero-de-escritura-159844/" width="320" height="213" />
+<figcaption class="figcaption"><span class="title" style="font-size: 8pt;"><em>Pixabay. (s. f.). Hombre en polo blanco y negro junto al tablero de escritura [Fotografía]. Pexels. https://www.pexels.com/es-es/foto/hombre-en-polo-blanco-y-negro-junto-al-tablero-de-escritura-159844/</em></span></figcaption>
+</figure>
+</td>
+<td style="width: 63.1579%;">
+<p>La inteligencia artificial generativa ha emergido como un fascinante campo de estudio que despierta la imaginación y redefine los límites de lo que las máquinas pueden lograr. En contraste con las aplicaciones tradicionales de la inteligencia artificial, que se centran en tareas específicas y bien definidas, la inteligencia artificial generativa se adentra en el terreno de la creatividad y la originalidad. Utilizando modelos avanzados de aprendizaje automático, como las redes neuronales generativas, estos programas pueden aprender de grandes conjuntos de datos y generar nuevos artefactos, ya sea en forma de imágenes, música, texto o incluso videos.</p>
+<p>Reflexione en la siguiente pregunta:</p>
+<p style="text-align: center;"><br /><strong>"¿Cómo puede la inteligencia artificial generativa transformar la forma en que enseñamos y aprendemos en entornos educativos?"</strong></p>
+<p>La educación se ve beneficiada por la inteligencia artificial al menos de dos maneras: (1) en el proceso educativo, mediante asistencia y modificaciones a la pedagogía y las funciones rutinarias del educador; y (2) en el ámbito y contenido educativos (Alam, A., 2021).</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tiempo de lectura.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_149_2" class="block iDevice_content">
+<div class="exe-text"><ol>
+<li> Descargue el artículo: “La nueva realidad de la educación ante los avances de la inteligencia artificial generativa”.</li>
+<li> Objetivo de la actividad: analizar y reflexionar sobre los temas presentados en el artículo.</li>
+<li>Descargue o reproduzca la Nota Cornell que se presenta en el enlace (<a href="NotaCornell.pdf" title="Nota Cornell">Nota Cornell</a>)  y tome sus notas, recuerde enfocarse en la pregunta detonadora: <em><strong>"¿Cómo puede la inteligencia artificial generativa transformar la forma en que enseñamos y aprendemos en entornos educativos?"</strong></em><em><strong></strong></em><em><strong><a href="https://revistas.uned.es/index.php/ried/article/view/37716" title="La nueva realidad de la educación ante los avances de la inteligencia artificial generativa">https://revistas.uned.es/index.php/ried/article/view/37716</a></strong></em></li>
+</ol>
+<p>Referencias: </p>
+<p>Alam,  A. (2021) "Possibilities and Apprehensions in the Landscape of Artificial Intelligence in Education," 2021 International Conference on Computational Intelligence and Computing Applications (ICCICA), Nagpur, India, pp. 1-8, doi: 10.1109/ICCICA52458.2021.9697272.</p>
+<p>García-Peñalvo, F., Llorens-Largo, F., &amp; Vidal, J. (2024). La nueva realidad de la educación ante los avances de la inteligencia artificial generativa. RIED-Revista Iberoamericana de Educación a Distancia, 27(1), 9-39. doi:https://doi.org/10.5944/ried.27.1.37716</p>
+<p> </p>
+<p><em><strong></strong></em></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="autoevaluacin0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="estrategias_prcticas_para_disear_prompts_alineados_a_objetivos_pedaggicos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
